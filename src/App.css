@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #d4d4d4;
+  color: #000000;
+  background-image: url("./img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-content: center;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: #efefef5e;
+}
+h1 {
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border-bottom: 1px solid #eee;
+}
+.content {
+  width: 100%;
+}
+.teste {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 9rem;
+  align-items: center;
+}
+.todo {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffffaf;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
