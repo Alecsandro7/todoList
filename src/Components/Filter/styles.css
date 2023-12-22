@@ -1,0 +1,6 @@
+.filter {
+  background-color: rgba(63, 29, 29, 0.541);
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}

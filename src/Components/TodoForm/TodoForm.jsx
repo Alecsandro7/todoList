@@ -1,6 +1,5 @@
 import "./styles.css"
 
-import Button from "../Button/Button"
 import { useState } from "react"
 
 export default function TodoForm({ addNewTodo }) {
@@ -35,7 +34,7 @@ export default function TodoForm({ addNewTodo }) {
           <option value="Casa">Casa</option>
           <option value="Pessoal">Pessoal</option>
         </select>
-        <Button type="submit" content="Criar tarefa" />
+        <button type="submit">Criar tarefa</button>
       </form>
     </div>
   )
